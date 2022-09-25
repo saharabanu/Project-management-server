@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$fsjGwO8tXI9RdTkY2vFV8Of8F4qejVgO2BEYIIIsV/hm3oQP.b40G",
+      "name": "test1",
+      "id": 1
+    },
+    {
+      "email": "sahara@gmail.com",
+      "password": "$2a$10$L0Jh1kSF0OY.JyQnHA0YouF8L06bernao0i9WP7fMWRdE4reT16H2",
+      "name": "Sahara",
+      "id": 2
+    }
+  ],
+  "projects": [
+    {
+      "author": "sahara@gmail.com",
+      "team": "dev",
+      "title": "Lorem Ispum",
+      "avatar": "https://cdn.pixabay.com/photo/2017/03/31/17/39/avatar-2191918__480.png",
+      "stage": "doing",
+      "createdAt": "2022-09-22T16:35:37.745Z",
+      "id": 1
+    },
+    {
+      "author": "sahara@gmail.com",
+      "team": "dev",
+      "title": "good",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3vYs1mwYQiWFiohg1XwoNh-uje0zyCeyklreIpSA8vA&s",
+      "stage": "ready",
+      "createdAt": "2022-09-25T03:08:05.567Z",
+      "id": 2
+    },
+    {
+      "author": "sahara@gmail.com",
+      "team": "frontend",
+      "title": "alll",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3vYs1mwYQiWFiohg1XwoNh-uje0zyCeyklreIpSA8vA&s",
+      "stage": "backlog",
+      "createdAt": "2022-09-25T03:11:06.251Z",
+      "id": 3
+    }
+  ],
+  "teams": [
+    {
+      "name": "dev",
+      "title": "Lorem ispum",
+      "color": "#000",
+      "author": {
+        "email": "sahara@gmail.com",
+        "name": "Sahara",
+        "id": 2
+      },
+      "members": [
+        "sahara@gmail.com",
+        "test1@gmail.com"
+      ],
+      "createdAt": "2022-09-22T16:32:33.874Z",
+      "id": 1
+    },
+    {
+      "name": "frontend",
+      "title": "all works",
+      "color": "#7f11e0",
+      "author": {
+        "email": "sahara@gmail.com",
+        "name": "Sahara",
+        "id": 2
+      },
+      "members": [
+        "sahara@gmail.com"
+      ],
+      "createdAt": "2022-09-25T03:10:28.763Z",
+      "id": 2
+    }
+  ]
+}

@@ -2,10 +2,10 @@
   "name": "project-management-server",
   "version": "1.0.0",
   "description": "Example in memory projects Management api with json-server auth by Sahara",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "start-dev": "nodemon server.js",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
